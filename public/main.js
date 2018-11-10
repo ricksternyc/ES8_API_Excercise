@@ -29,7 +29,7 @@ const getVenues = async () => {
       console.log(venues);
       return venues;
     } else {
-      throw new Error('no luck douchebag');
+      throw new Error('no luck');
     }
   }
   catch(error){
@@ -48,7 +48,7 @@ const getForecast = async () => {
      const days = jsonResponse.forecast.forecastday;
      return days;
    } else {
-     throw new Error('failed idiot');
+     throw new Error('failed');
    }
  }
   catch(error){
